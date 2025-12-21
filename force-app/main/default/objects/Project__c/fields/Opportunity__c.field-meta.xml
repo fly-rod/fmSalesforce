@@ -3,12 +3,12 @@
     <fullName>Opportunity__c</fullName>
     <deleteConstraint>Restrict</deleteConstraint>
     <description>The opportunity that generated this project</description>
-    <externalId>false</externalId>
     <label>Opportunity</label>
     <referenceTo>Opportunity</referenceTo>
     <relationshipLabel>Projects</relationshipLabel>
     <relationshipName>Projects</relationshipName>
     <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>

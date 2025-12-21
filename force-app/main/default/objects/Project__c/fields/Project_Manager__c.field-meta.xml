@@ -3,11 +3,11 @@
     <fullName>Project_Manager__c</fullName>
     <deleteConstraint>SetNull</deleteConstraint>
     <description>User responsible for managing this project</description>
-    <externalId>false</externalId>
     <label>Project Manager</label>
     <referenceTo>User</referenceTo>
     <relationshipName>Managed_Projects</relationshipName>
     <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
     <type>Lookup</type>
