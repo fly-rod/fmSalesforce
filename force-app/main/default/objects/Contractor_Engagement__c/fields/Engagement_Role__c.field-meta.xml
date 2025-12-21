@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Engagement_Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Engagement Role</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce Data Cloud Consultant</fullName>
+                <default>false</default>
+                <label>Salesforce Data Cloud Consultant</label>
+            </value>
+            <value>
+                <fullName>Salesforce Developer</fullName>
+                <default>false</default>
+                <label>Salesforce Developer</label>
+            </value>
+            <value>
+                <fullName>Solution Architect</fullName>
+                <default>false</default>
+                <label>Solution Architect</label>
+            </value>
+            <value>
+                <fullName>Technical Lead</fullName>
+                <default>false</default>
+                <label>Technical Lead</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Skill_Name__c</fullName>
+    <externalId>false</externalId>
+    <label>Skill Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Salesforce Data Cloud</fullName>
+                <default>false</default>
+                <label>Salesforce Data Cloud</label>
+            </value>
+            <value>
+                <fullName>Identity Resolution</fullName>
+                <default>false</default>
+                <label>Identity Resolution</label>
+            </value>
+            <value>
+                <fullName>Calculated Insights</fullName>
+                <default>false</default>
+                <label>Calculated Insights</label>
+            </value>
+            <value>
+                <fullName>Segmentation</fullName>
+                <default>false</default>
+                <label>Segmentation</label>
+            </value>
+            <value>
+                <fullName>MuleSoft</fullName>
+                <default>false</default>
+                <label>MuleSoft</label>
+            </value>
+            <value>
+                <fullName>Azure</fullName>
+                <default>false</default>
+                <label>Azure</label>
+            </value>
+            <value>
+                <fullName>SQL</fullName>
+                <default>false</default>
+                <label>SQL</label>
+            </value>
+            <value>
+                <fullName>AI Enablement</fullName>
+                <default>false</default>
+                <label>AI Enablement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
