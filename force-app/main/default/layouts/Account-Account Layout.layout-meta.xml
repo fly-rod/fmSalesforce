@@ -192,6 +192,14 @@
         <relatedList>RelatedOpportunityList</relatedList>
     </relatedLists>
     <relatedLists>
+        <fields>NAME</fields>
+        <fields>Project_Status__c</fields>
+        <fields>Start_Date__c</fields>
+        <fields>End_Date__c</fields>
+        <fields>Budget__c</fields>
+        <relatedList>Client_Projects__r</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>CASES.CASE_NUMBER</fields>
         <fields>NAME</fields>
         <fields>CASES.SUBJECT</fields>

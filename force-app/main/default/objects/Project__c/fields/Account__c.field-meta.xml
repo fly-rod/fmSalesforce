@@ -6,8 +6,8 @@
     <externalId>false</externalId>
     <label>Client Account</label>
     <referenceTo>Account</referenceTo>
-    <relationshipLabel>Projects</relationshipLabel>
-    <relationshipName>Projects</relationshipName>
+    <relationshipLabel>Client Projects</relationshipLabel>
+    <relationshipName>Client_Projects</relationshipName>
     <required>false</required>
     <trackHistory>true</trackHistory>
     <trackTrending>false</trackTrending>
