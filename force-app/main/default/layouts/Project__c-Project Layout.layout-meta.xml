@@ -124,11 +124,11 @@
     <relatedLists>
         <fields>NAME</fields>
         <fields>Contractor__c</fields>
-        <fields>Role__c</fields>
+        <fields>Engagement_Role__c</fields>
         <fields>Start_Date__c</fields>
         <fields>End_Date__c</fields>
-        <fields>Rate__c</fields>
-        <fields>Status__c</fields>
+        <fields>Bill_Rate__c</fields>
+        <fields>Engagement_Status__c</fields>
         <relatedList>Contractor_Engagement__c.Project__c</relatedList>
     </relatedLists>
     <showEmailCheckbox>false</showEmailCheckbox>
