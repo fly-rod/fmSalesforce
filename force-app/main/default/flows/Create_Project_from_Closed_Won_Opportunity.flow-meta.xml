@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>65.0</apiVersion>
+    <areMetricsLoggedToDataCloud>false</areMetricsLoggedToDataCloud>
     <description>Automatically creates a Project record when an Opportunity is marked as Closed Won</description>
     <environments>Default</environments>
     <interviewLabel>Create Project from Closed Won Opportunity {!$Flow.CurrentDateTime}</interviewLabel>
@@ -27,30 +28,12 @@
     <recordCreates>
         <name>Create_Project</name>
         <label>Create Project</label>
-        <locationX>176</locationX>
-        <locationY>323</locationY>
-        <inputAssignments>
-            <field>Opportunity__c</field>
-            <value>
-                <elementReference>$Record.Id</elementReference>
-            </value>
-        </inputAssignments>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
         <inputAssignments>
             <field>Account__c</field>
             <value>
                 <elementReference>$Record.AccountId</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Project_Status__c</field>
-            <value>
-                <stringValue>Planning</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <field>Start_Date__c</field>
-            <value>
-                <elementReference>$Record.CloseDate</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -66,16 +49,34 @@
             </value>
         </inputAssignments>
         <inputAssignments>
+            <field>Opportunity__c</field>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
             <field>Project_Manager__c</field>
             <value>
                 <elementReference>$Record.OwnerId</elementReference>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Project_Status__c</field>
+            <value>
+                <stringValue>Planning</stringValue>
+            </value>
+        </inputAssignments>
+        <inputAssignments>
+            <field>Start_Date__c</field>
+            <value>
+                <elementReference>$Record.CloseDate</elementReference>
             </value>
         </inputAssignments>
         <object>Project__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordCreates>
     <start>
-        <locationX>50</locationX>
+        <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>Create_Project</targetReference>
