@@ -283,4 +283,22 @@
         <recordType>Contact.Contractor</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+
+    <!-- Tab Visibilities -->
+    <tabSettings>
+        <tab>Contractor_Certification__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Contractor_Engagement__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Contractor_Skill__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+    <tabSettings>
+        <tab>Project__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>
