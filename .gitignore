@@ -46,3 +46,11 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+# Python scripts output
+scripts/python/output/
+*.pdf
+
+# Claude/AI tooling
+.claude/
+.aitk/

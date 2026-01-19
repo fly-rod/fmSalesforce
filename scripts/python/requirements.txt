@@ -1,0 +1,21 @@
+# Salesforce CRM Summary Report Generator
+# Python dependencies
+
+# Salesforce integration
+simple-salesforce>=1.12.5
+
+# Claude AI API
+anthropic>=0.39.0
+
+# PDF generation
+reportlab>=4.0.0
+fpdf2>=2.7.0
+
+# Data handling
+pandas>=2.0.0
+
+# Environment and configuration
+python-dotenv>=1.0.0
+
+# Date/time handling
+python-dateutil>=2.8.0
