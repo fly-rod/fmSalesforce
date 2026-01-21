@@ -19,6 +19,7 @@
     <tabs>standard-Event</tabs>
     <tabs>Project__c</tabs>
     <tabs>Contractor_Engagement__c</tabs>
+    <tabs>Time_Entry__c</tabs>
     <tabs>Contractor_Skill__c</tabs>
     <tabs>Contractor_Certification__c</tabs>
     <tabs>standard-report</tabs>

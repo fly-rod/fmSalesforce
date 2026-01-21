@@ -43,7 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Represents a contractor working on a specific client opportunity. Critical for staffing visibility, margin reporting, and capacity planning.</description>
+    <description>Tracks billable hours worked by contractors on client projects</description>
     <enableActivities>true</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -53,15 +53,16 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <label>Contractor Engagement</label>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <label>Time Entry</label>
     <nameField>
-        <displayFormat>CE-{0000}</displayFormat>
-        <label>Engagement Number</label>
+        <displayFormat>TE-{00000}</displayFormat>
+        <label>Time Entry Number</label>
         <trackHistory>false</trackHistory>
         <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Contractor Engagements</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <pluralLabel>Time Entries</pluralLabel>
+    <searchLayouts/>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
